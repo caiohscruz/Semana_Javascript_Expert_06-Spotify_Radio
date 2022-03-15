@@ -1,0 +1,33 @@
+{
+  "name": "jsexpert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiohscruz/Semana_Javascript_Expert_06-Spotify_Radio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiohscruz/Semana_Javascript_Expert_06-Spotify_Radio/issues"
+  },
+  "homepage": "https://github.com/caiohscruz/Semana_Javascript_Expert_06-Spotify_Radio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  }
+}
